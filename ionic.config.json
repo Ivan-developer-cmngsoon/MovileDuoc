@@ -1,0 +1,7 @@
+{
+  "name": "AguaBefine",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

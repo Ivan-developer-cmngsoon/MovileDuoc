@@ -1,0 +1,38 @@
+<!-- El encabezado de la página, que incluye una barra de herramientas con un título y un botón de menú -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <!-- Botones que se colocan en la parte izquierda de la barra de herramientas (slot="start") -->
+    <ion-buttons slot="start">
+      <!-- Botón del menú lateral; al hacer clic, abre el menú lateral (ion-menu) configurado en app.component.html -->
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <!-- Título que aparece en la barra de herramientas -->
+    <ion-title>
+      Inicio <!-- Puedes cambiar este texto por el título de tu página -->
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<!-- Contenido principal de la página -->
+<ion-content [fullscreen]="true">
+  
+  <!-- Un encabezado adicional que aparece cuando el contenido se desplaza hacia arriba (efecto de condensación) -->
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!-- Título grande que se muestra cuando el encabezado se condensa -->
+      <ion-title size="large">Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Contenedor principal para el contenido de la página -->
+  <div id="container">
+    <!-- Texto de ejemplo con un enlace a la documentación de componentes de Ionic -->
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic 
+      <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a>
+    </p>
+  </div>
+</ion-content>
